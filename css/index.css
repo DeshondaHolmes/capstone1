@@ -11,3 +11,13 @@ p {
 .bg{
     flex-direction: column-reverse;
 }
+
+.div{
+    flexbox
+    align-items:center;
+}
+
+
+.navbar{
+    color: aliceblue;
+}
