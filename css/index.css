@@ -4,6 +4,7 @@
 }
 .navbar-nav {
     font-size: 1.2rem;
+    
 }
 #main-content {
     margin-top: 50px;
@@ -39,3 +40,6 @@
     color:rgb(0, 0, 1)
   }
 
+  p{
+    color: #e8e8e8;
+  }

@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(194, 108, 108);
+    background-color: rgb(220, 184, 184);
   }
   
   .container {
@@ -11,13 +11,13 @@ body {
   }
   
   h2 {
-    color: #f9efef;
+    color: #fefefe;
     text-align: center;
   }
   
   .form-control {
     background-color: #333333;
-    border-color: #ff0000;
+    border-color: #e8e8e8;
     color: #ffffff;
     border-radius: 5px;
   }
@@ -46,4 +46,8 @@ body {
   
   .footer{
     color: rgb(191, 188, 188);
+  }
+
+  *p{
+    color: #e8e8e8;
   }
