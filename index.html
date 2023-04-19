@@ -1,144 +1,31 @@
-<!doctype html>
-<html lang="en">
-
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>CGC</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-highway.css">
-    <link href="css/site.css" rel="stylesheet">
-    <link href="css/index.css" rel="stylesheet">
+	<title>Sign In</title>
+	<!-- Bootstrap CSS file -->
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css">
+	<!-- Custom CSS file -->
+	<link rel="stylesheet" type="text/css">
 </head>
-
-
-
 <body>
-    <header data-bs-theme="dark">
-
-        <nav class="navbar navbar-expand-md bg-body-tertiary">
-                <nav class="navbar bg-body-tertiary">
-                    <div class="container">
-                        <a class="navbar-brand" href="#">
-                            <img src="images\CGCLOGOUPDATE.png" alt="mylogo" width="100" height="100">
-                        </a>
-                    </div>
-                </nav>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="registration.html">Sign-up</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="login.html">Login</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="products.html">Collection</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="checkout.html">Cart</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Account
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Reviews</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-
-    </Header>
-      
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-          <li data-target="#myCarousel" data-slide-to="1"></li>
-        </ol>
-    
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner" role="listbox">
-          <div class="item active">
-            <img src="images/collectionofgames3.png" alt="Image">
-            <div class="carousel-caption">
-              <h3>Unleash you radiance!</h3>
-              <p>beauty.</p>
-            </div>      
-          </div>
-    
-          <div class="item">
-            <img src="images/collectionofgames3.png" alt="Image">
-            <div class="carousel-caption">
-              <h3>Sale $</h3>
-              <p>Don'miss out on our sale</p>
-            </div>      
-          </div>
-        </div>
-    
-        <!-- Left and right controls -->
-        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-    </div>
-      
-    <div class="container text-center">    
-      <h3>Products</h3><br>
-      <div class="row">
-        <div class="col-sm-4">
-          <img src="images/collectionofgames3.png" class="img-responsive" style="width:100%" alt="Image">
-          <p>Best sellers</p>
-        </div>
-        <div class="col-sm-4"> 
-          <img src="images/collectionofgames3.png" class="img-responsive" style="width:100%" alt="Image">
-          <p>Project 2</p>    
-        </div>
-        <div class="col-sm-4">
-          <div class="well">
-           <p>Radiance Cosmetics is a clean and eco-friendly makeup brand that helps you achieve a radiant, glowing complexion using natural and organic ingredients, free from harsh chemicals and toxins.</p>
-          </div>
-          <div class="well">
-           <p>The brand is committed to sustainability and ethical production, using eco-friendly packaging and working with fair-trade cooperatives to source their ingredients.</p>
-          </div>
-        </div>
-      </div>
-    </div><br>
-            </div>
-
-    </main>
-
-    <hr>
-
-    <footer class="container">
-
-        <div class="">Copyright © 2023 CGC. All rights reserved.</div>
-
-
-    </footer>
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
-        </script>
-
+	<div class="container mt-5">
+		<h2 class="text-center">Sign In</h2>
+		<form>
+			<div class="mb-3">
+				<label for="email" class="form-label">Email address</label>
+				<input type="email" class="form-control" id="email" placeholder="Enter email">
+			</div>
+			<div class="mb-3">
+				<label for="password" class="form-label">Password</label>
+				<input type="password" class="form-control" id="password" placeholder="Enter password">
+			</div>
+			<div class="d-grid gap-2">
+				<button type="submit" class="btn btn-primary">Sign In</button>
+			</div>
+		</form>
+	</div>
+	<!-- Bootstrap JS files -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
 </body>
-
 </html>
