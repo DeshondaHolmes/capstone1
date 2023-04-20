@@ -6,6 +6,7 @@
     font-size: 1.2rem;
     
 }
+
 #main-content {
     margin-top: 50px;
 }
@@ -21,7 +22,6 @@
     height: 300px;
     object-fit: cover;
 }
-
 /* Define the animation */
 @keyframes bounce {
     0% { transform: translateY(0); }
@@ -43,3 +43,37 @@
   p{
     color: #e8e8e8;
   }
+
+  label{
+    color:#e8e8e8
+  }
+
+  .invalid-feedback{
+    color: rgb(255, 255, 255);
+  }
+
+  strong{
+    color:black
+  }
+
+.card-text{
+  color: black;
+}
+
+
+.mt-0 {
+  margin-top: 0 !important;
+}
+
+.ms-1 {
+  margin-left: ($spacer * .25) !important;
+}
+
+.px-2 {
+  padding-left: ($spacer * .5) !important;
+  padding-right: ($spacer * .5) !important;
+}
+
+.p-3 {
+  padding: $spacer !important;
+}
