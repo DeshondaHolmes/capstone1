@@ -57,7 +57,7 @@ text-body{
 }
 
 body {
-  background-color: rgb(6, 133, 3);
+  background-color: rgb(132, 7, 7);
 }
 
 .navbar-toggler-icon {
@@ -69,4 +69,11 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
+}
+
+Table,
+th,
+td {
+    border: 1px solid rgb(244, 196, 196);
+    max-height: 0%;
 }
