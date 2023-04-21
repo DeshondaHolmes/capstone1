@@ -1,14 +1,11 @@
 .navbar-brand {
-    font-size: 2rem;
-    font-weight: bold;
+  font-size: 2rem;
+  font-weight: bold;
 }
 .navbar-nav {
-    font-size: 1.2rem;
-    
-}
-
-#main-content {
-    margin-top: 50px;
+  font-size: 1.2rem;
+  align-content: space-evenly;
+  text-align: justify;
 }
 .col-md-6 {
     margin-bottom: 30px;
@@ -37,7 +34,7 @@
     animation-iteration-count: infinite;
   }
   h1{
-    color:rgb(0, 0, 1)
+    color:rgb(0, 0, 1);
   }
 
   p{
@@ -76,4 +73,9 @@
 
 .p-3 {
   padding: $spacer !important;
+}
+
+.parent {
+  display: flex;
+  align-items: center;
 }

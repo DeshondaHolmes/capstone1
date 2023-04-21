@@ -1,13 +1,5 @@
 body {
-    background-color: rgb(255, 255, 255);
-  }
-  
-  .container {
-    background-color: #7c0d0d;
-    border-radius: 10px;
-    padding: 50px;
-    margin-top: 50px;
-    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    background-color: rgb(126, 7, 7);
   }
   
   h2{
@@ -24,7 +16,7 @@ body {
   
   .form-control:focus {
     background-color: #454545;
-    border-color: #ff0000;
+    border-color: #2a8815;
     color: #ffffff;
   }
   
@@ -57,9 +49,44 @@ body {
     left: 100px;
     border: 3px solid blue;
    }
+   
+.display{  
+  background-color: #4e7b21;
+  border-radius: 10px;
+  padding: 50px;
+  margin-top: 50px;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
 
-  card{
-    flex:0em;
-    justify-content: space-around;
-    
-  }
+@media (min-width: 768px)
+.order-md-last {
+    order: 6!important;
+}
+
+@media (min-width: 768px)
+.col-md-5 {
+    flex: 0 0 auto;
+    width: 41.66666667%;
+}
+.mb-3 {
+  margin-bottom: 1rem!important;
+}
+
+.align-items-center {
+  align-items: center!important;
+}
+
+.justify-content-between {
+  justify-content: space-between!important;
+}
+
+.d-flex {
+  display: flex!important;
+}
+
+.h4, h4 {
+  font-size: calc(1.275rem + .3vw);
+}
+*, ::after, ::before {
+  box-sizing: border-box;
+}
