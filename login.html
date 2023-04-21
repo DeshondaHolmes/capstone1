@@ -54,22 +54,34 @@
     <!-- main Section -->
     <main class="display container">
         <section class="text-center container"></section>
-            <div class="row-sm-4">
-                <div class="container center">
-                    <form name="loginform" id="loginform" action="loginuser">
-                        <div class="form-group row-sm-6">
-                            <label for="user-login">Email</label>
-                            <input type="text" name="log" id="user_login" class="form-control" value size="20">
-                            <div class="form-group">
-                                <label for="user-pass">Password</label>
-                                <a class="form-sublink" href=""></a>
-                                <input type="text" name="log" id="user_login" class="form-control" value size="20">
-                        </div>
-                    </form>
-                </div>
+        <div class="row-sm-4">
+            <div class="container">
+                <form>
+                    <img class="mb-4" src="images/cgclogo.png" alt="" width="72" height="57">
+                    <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+
+                    <div class="form-floating">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Email address</label>
+                    </div>
+                    <div class="form-floating">
+                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                        <label for="floatingPassword">Password</label>
+                    </div>
+
+                    <div class="checkbox mb-3">
+                        <label>
+                            <input type="checkbox" value="remember-me"> Remember me
+                        </label>
+                    </div>
+                    <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+                    <p class="mt-5 mb-3 text-body-secondary">© 2017–2023</p>
+                </form>
             </div>
-            </div>
+        </div>
+        </div>
         </section>
+
         </header>
         <p>
         </p>
@@ -88,4 +100,4 @@
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>
 
-</body> 
+</body>
