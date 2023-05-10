@@ -20,10 +20,10 @@ An e-commerce website template , built with HTML , CSS , and Bootstrap
 
 ![collection](/images/collection.png "Collection")
 
-![firstcapstone](/images/capstonestoretable?raw=true "Capstonescreenshot")
+![Homepage](/images/homepage1 "Homepage")
 
-![firstcapstone](/images/capstonescreenshotstore?raw=true "Capstonescreenshot")
+
 =======
 >>>>>>> a7e043706d9fa3be74c3064e89ed963ca2bd3d28
 
-# My code is available on github
+
