@@ -16,9 +16,9 @@ An e-commerce website template , built with HTML , CSS , and Bootstrap
 # My first capstone project.
 
 <<<<<<< HEAD
-![cart](/images/oldercart.png?raw=true "Capstonescreenshot")
+![cart](/images/oldercart.png "Cart")
 
-![firstcapstone](/images/capstoneproject?raw=true "Capstonescreenshot")
+![collection](/images/collection.png "Collection")
 
 ![firstcapstone](/images/capstonestoretable?raw=true "Capstonescreenshot")
 
