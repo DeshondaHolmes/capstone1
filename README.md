@@ -1,4 +1,6 @@
-# capstone1
+# capstone1.5
+
+
 An e-commerce website template , built with HTML , CSS , and Bootstrap
 
 # Welcome to CGC.
@@ -13,9 +15,5 @@ An e-commerce website template , built with HTML , CSS , and Bootstrap
 
 # My first capstone project.
 
-![firstcapstone](/images/capstonescreenshot.png?raw=true "Capstonescreenshot")
-![firstcapstone](/images/capstoneproject?raw=true "Capstonescreenshot")
-![firstcapstone](/images/capstonestoretable?raw=true "Capstonescreenshot")
-![firstcapstone](/images/capstonescreenshotstore?raw=true "Capstonescreenshot")
 
 # My code is available on github
