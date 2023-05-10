@@ -20,7 +20,7 @@ An e-commerce website template , built with HTML , CSS , and Bootstrap
 
 ![collection](/images/collection.png "Collection")
 
-![Homepage](/images/homepage1 "Homepage")
+![Homepage](/images/homepage1.png "Homepage")
 
 
 =======
