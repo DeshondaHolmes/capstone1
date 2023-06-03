@@ -19,29 +19,24 @@ until I found my theme colors:red, green , white, & black.
 
 # My first capstone project.
 
-<<<<<<< HEAD
+
 # My code is available on github
 
 
-![omepage](/images/)
 
-![sign up](/images/capstoneproject?raw=true "Capstonescreenshot")
-
-![login](/images/capstonestoretable?raw=true "Capstonescreenshot")
-
-![collection](/images/capstonescreenshotstore?raw=true "Capstonescreenshot")
-![cart](/images/capstonescreenshot.png?raw=true "Capstonescreenshot")
-=======
-<<<<<<< HEAD
-![cart](/images/oldercart.png "Cart")
-
-![collection](/images/collection.png "Collection")
-
-![Homepage](/images/homepage1.png "Homepage")
+![homepage](/images/oldhomepage.png "Capstone1Homepage")
 
 
-=======
->>>>>>> a7e043706d9fa3be74c3064e89ed963ca2bd3d28
+![sign up](/images/signUpcapstone1.png "Capstone1signup")
+
+![login](/images/signIn.png "Capstone1lognIN")
+
+![collection table](/images/capstonestoretable.png"Capstone1gametable")
+
+![collection of games](/images/collection.png"Capstone1collection")
+
+![carttop](/images/checkouttopcapstone1.png "Carttop")
+
+![cart](/images/oldercart.png "Cartbottom")
 
 
->>>>>>> 3f08a7258e2d3e1431868fb89556092c23b2a80b

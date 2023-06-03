@@ -26,8 +26,8 @@
 
 /* Define the animation */
 @keyframes bounce {
-<<<<<<< HEAD
-    0% { transform: translateY(0); }
+
+    0% { transform: translateY(10); }
     50% { transform: translateY(-20px); }
     100% { transform: translateY(0); }
   }
@@ -41,14 +41,13 @@
   }
   h1{
     color:rgb(0, 0, 1);
-=======
+
   0% {
     transform: translateY(0);
->>>>>>> 3f08a7258e2d3e1431868fb89556092c23b2a80b
   }
 
   50% {
-    transform: translateY(-30px);
+    transform: translateY(-40px);
   }
 
   100% {
