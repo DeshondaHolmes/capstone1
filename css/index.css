@@ -19,7 +19,7 @@
 /* Define the animation */
 @keyframes bounce {
     0% { transform: translateY(0); }
-    50% { transform: translateY(-30px); }
+    50% { transform: translateY(-20px); }
     100% { transform: translateY(0); }
   }
   
@@ -44,10 +44,6 @@
 
   .invalid-feedback{
     color: rgb(255, 255, 255);
-  }
-
-  strong{
-    color:black
   }
 
 .card-text{
