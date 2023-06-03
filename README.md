@@ -31,9 +31,9 @@ until I found my theme colors:red, green , white, & black.
 
 ![login](/images/signIn.png "Capstone1lognIN")
 
-![collection table](/images/capstonestoretable.png"Capstone1gametable")
+![collection table](/images/capstonestoretable.png "Capstone1gametable")
 
-![collection of games](/images/collection.png"Capstone1collection")
+![collection of games](/images/collection.png "Capstone1collection")
 
 ![carttop](/images/checkouttopcapstone1.png "Carttop")
 
