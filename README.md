@@ -37,6 +37,6 @@ until I found my theme colors:red, green , white, & black.
 
 ![carttop](/images/checkouttopcapstone1.png "Carttop")
 
-![cart](/images/oldercart.png "Cartbottom")
+![cart](/images/oldcheckout.png "Cartbottom")
 
 
