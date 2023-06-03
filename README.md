@@ -1,4 +1,6 @@
-# capstone1
+# capstone1.5
+
+
 An e-commerce website template , built with HTML , CSS , and Bootstrap
 
 # Welcome to CGC.
@@ -17,6 +19,7 @@ until I found my theme colors:red, green , white, & black.
 
 # My first capstone project.
 
+<<<<<<< HEAD
 # My code is available on github
 
 
@@ -28,3 +31,17 @@ until I found my theme colors:red, green , white, & black.
 
 ![collection](/images/capstonescreenshotstore?raw=true "Capstonescreenshot")
 ![cart](/images/capstonescreenshot.png?raw=true "Capstonescreenshot")
+=======
+<<<<<<< HEAD
+![cart](/images/oldercart.png "Cart")
+
+![collection](/images/collection.png "Collection")
+
+![Homepage](/images/homepage1.png "Homepage")
+
+
+=======
+>>>>>>> a7e043706d9fa3be74c3064e89ed963ca2bd3d28
+
+
+>>>>>>> 3f08a7258e2d3e1431868fb89556092c23b2a80b

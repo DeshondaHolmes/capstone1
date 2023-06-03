@@ -1,23 +1,32 @@
 .navbar-brand {
-  font-size: 2rem;
+
   font-weight: bold;
 }
+
 .navbar-nav {
-  font-size: 1.2rem;
+
   align-content: space-evenly;
   text-align: justify;
 }
+
 .card:hover {
-    transform: scale(1.05);
-    transition: all 0.5s;
-    box-shadow: 0px 0px 15px rgba(0,0,0,0.3);
+  transform: scale(1.05);
+  transition: all 0.5s;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
 }
+
 .card-img-top {
-    height: 300px;
-    object-fit: cover;
+  height: 300px;
+  object-fit: cover;
 }
+
+* {
+  font-size: medium
+}
+
 /* Define the animation */
 @keyframes bounce {
+<<<<<<< HEAD
     0% { transform: translateY(0); }
     50% { transform: translateY(-20px); }
     100% { transform: translateY(0); }
@@ -32,21 +41,55 @@
   }
   h1{
     color:rgb(0, 0, 1);
+=======
+  0% {
+    transform: translateY(0);
+>>>>>>> 3f08a7258e2d3e1431868fb89556092c23b2a80b
   }
 
-  p{
-    color: #e8e8e8;
+  50% {
+    transform: translateY(-30px);
   }
 
-  label{
-    color:#e8e8e8
+  100% {
+    transform: translateY(0);
   }
+}
 
-  .invalid-feedback{
-    color: rgb(255, 255, 255);
-  }
+/* Apply the animation to an element */
+.box {
+  animation-name: bounce;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
 
+<<<<<<< HEAD
 .card-text{
+=======
+}
+
+h1 {
+  color: rgb(0, 0, 1);
+}
+
+p {
+  color: #e8e8e8;
+}
+
+label {
+  color: #e8e8e8
+}
+
+.invalid-feedback {
+  color: rgb(255, 255, 255);
+}
+
+strong {
+  color: black
+}
+
+.card-text {
+>>>>>>> 3f08a7258e2d3e1431868fb89556092c23b2a80b
   color: black;
 }
 
@@ -63,9 +106,10 @@
 
 
 .lead {
-    font-size: 1.25rem;
-    font-weight: 300;
+
+  font-weight: 300;
 }
+
 p {
   margin-top: 0;
   margin-bottom: 1rem;
@@ -79,18 +123,25 @@ p {
   margin-inline-end: 0px;
 }
 
-*, ::after, ::before {
+*,
+::after,
+::before {
   box-sizing: border-box;
 }
 
 
-.g-5, .gy-5 {
+.g-5,
+.gy-5 {
   --bs-gutter-y: 3rem;
 }
-.g-5, .gx-5 {
+
+.g-5,
+.gx-5 {
   --bs-gutter-x: 3rem;
 }
 
-.form{
+.form {
   align-items: center;
+  font-size: medium;
+  
 }
